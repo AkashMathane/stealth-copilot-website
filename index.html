@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-17DBLMMTQK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-17DBLMMTQK');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
@@ -36,7 +45,9 @@
                     tool</strong> listens and provides instant <strong>live speech suggestions</strong> right on your
                 screen.</p>
             <a href="https://drive.google.com/file/d/1a8nmb7kKZfzW6gwIv-90fMVGxRnQi2NJ/view?usp=sharing" target="_blank"
-                class="btn">Download App (Windows)</a>
+                class="btn"
+                onclick="gtag('event', 'download_click', {'event_category': 'engagement', 'event_label': 'Windows App Download'});">Download
+                App (Windows)</a>
         </section>
 
         <section id="how-it-works" class="container content-block">
